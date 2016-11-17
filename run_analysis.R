@@ -4,8 +4,7 @@
 if(!file.exists("./data")) dir.create("./data")
 fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 download.file(fileUrl, destfile = "smartphones.csv")
-# load data into R
-smartphones <- read.csv("smartphones.csv")
+
 
 #FIRST PART, MERGING TRAINING AND TEST SETS
 train_data <- read.table("./data/train/X_train.txt")
