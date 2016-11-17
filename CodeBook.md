@@ -5,14 +5,21 @@
 First I downloaded the zip file to my working directory, loaded the test and training sets into R:
 
 train_data is the X_train text file from the train folder
-test_data is teh X_test text file from the test folder
+
+test_data is the X_test text file from the test folder
+
 y_train is the y_train text file from the train folder
+
 y_test is the y_test text file from the test folder
+
 subject_test is the subect_test text file from the test folder
+
 subject_train is the subject_train text file from the train folder. 
 
 merged_data is train_data and test_data merged
+
 merged_subject is subject_train and subject_test merged
+
 merged_y is y_train and y_test merged
 
 ##Second Part
